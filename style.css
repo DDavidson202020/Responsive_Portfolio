@@ -1,12 +1,14 @@
-
+* {
+    box-sizing: border-box;
+}
 .collapse {
     justify-content: flex-end;
 }
 
-h3 {
+.navbar h3 {
     color:#ffffff;
     padding: 30px 10px;
-    margin-left: 30px;
+    margin-left: 85px;
     background-color:teal ;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
@@ -15,3 +17,43 @@ h3 {
     height: 90px;
     border: 2px solid #cccccc;
 }
+main {
+    overflow: auto;
+    background-color: rgb(161, 182, 196);
+    height: 700px;
+    
+
+}
+
+
+
+    
+
+.box {
+    
+    margin-left: 100px;
+    padding-top: 20px;
+    border: 1px solid #cccccc;
+    height:400px;
+    width: 600px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    background-color: white;
+   
+    
+    
+}
+.box h3 { 
+    
+    padding-bottom:20px;
+    border-bottom: 2px solid #cccccc;
+}
+.box img {
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+
