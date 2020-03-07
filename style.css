@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 .collapse {
     justify-content: flex-end;
 }
@@ -21,13 +19,14 @@ a {
     color: gray ;
     font-size:20px;
 }
-main {
-    overflow: auto;
+.container-fluid {
+    overflow:auto;
     background-color: rgb(178, 199, 201);
     height: 700px;
+    float: left;
 }
 .box {
-    margin-left: 100px;
+    margin-left: 85px;
     padding-top: 20px;
     border: 1px solid #a09797;
     height:400px;
@@ -37,21 +36,36 @@ main {
     margin-top: 40px;
     background-color: white;
 }
-.box h3 { 
-    padding-bottom:20px;
-    border-bottom: 2px solid #cccccc;
-    color: teal
+.box-2 {
+    padding-left: 20px;
 }
-.box img {
+.about { 
+    padding-bottom:15px;
+    border-bottom: 2px solid #cccccc;
+    color: teal;
+    padding-left: 0;
+    font-weight: bold;
+    font-size:30px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.para {
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+img {
     padding-right: 20px;
     padding-top: 10px;
     width: 200px;
     height: 150px;
 }
+
 footer {
     background-color: #666666;
     height: 100px;
     border-top: 10px solid teal;
+    clear: both;
 }
 .middle {
     padding-top: 30px;
