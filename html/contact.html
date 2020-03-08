@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
     </head>
     
     <body>
+        <nav class="navbar navbar-expand-lg navbar-white bg-white">
+            <h3>Dung Davidson</h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+              
+              </div>
+            </div>
+          </nav>
 
+        <main>
+            <div class="container">
+                
+                    <div class="row">
+                      <div class="col">
+                        <p>Contact</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="usr">Name</label>
+                            <input type="text" class="form-control" id="usr">
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Email</label>
+                            <input type="password" class="form-control" id="pwd">
+                          </div>
+                          <div class="form-group">
+                            <label for="comment">Message</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                          </div>
+                          <button class="btn btn-info" type="submit">Submit</button>
+                      </div>
+            </div>
+        </main>
+        <footer>
+            <div class="row">
+              <div class="col-md-12 text-center small align-middle middle">&copy;Dung Davidson2020.</div>
+            </div>
+        </footer>
     </body>
 </html>
