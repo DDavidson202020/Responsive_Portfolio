@@ -1,1 +1,3 @@
 Responsive_Portfolio
+This homework requires me to use Bootstrap to make the entire application responsive and can add a little bit of my own styling.
+It has the homepage, portfolio, and contact page which are linked together. All 3 pages have pretty much the same structure, same Navbar and footer. The biggest challenge I have with this homework is the link section from the navbar when the screen is resized much smaller.
