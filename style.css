@@ -6,7 +6,7 @@
 .navbar h3 {
     color:#ffffff;
     padding: 30px 10px;
-    margin-left: 83px;
+    margin-left: 373px;
     background-color:teal ;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
@@ -19,24 +19,12 @@ a {
     color: gray ;
     font-size:20px;
 }
-/* Style the main body of the page*/
-.container-fluid {
-    overflow: auto;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9Xgz-pqn6-t2Ruv7HtzIIrK-Hl_4NGHIG5CRezmHbdoWQcLc9");
-    height:700px;
+a:active {
+    color: black;
+}
 
-}
-.box {
-    height: 400px;
-    width:600px;
-    background-color: white;
-    border: 1px solid #a09797;
-    margin-left: 85px;
-    margin-top: 40px;
-    padding: 20px;
-}
 .box-2 {
-    padding-left: 20px;
+    padding: 30px 40px;
 }
 .about, .col p {
     padding-bottom: 15px;
@@ -73,8 +61,43 @@ main {
     overflow: auto;
 }
 .container {
+
     background-color: white;
     margin-top:40px;
-    padding-bottom: 20px;
+    border: 1px solid #a09797;
     
 }
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .container-p {
+        width:350px;
+    }
+    .col-md-3 {
+        margin-bottom:30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98) {
+    .container-p {
+        height:650px;
+        width: 550px;
+    }
+    .col-md-3 {
+        padding-bottom: 20px;
+        margin-right: 120px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        height:530px; 
+        width: 730px;
+    }
+    .container-p {
+        height:650px;
+        width: 550px;
+    }
+    .col-md-3 {
+        padding-bottom: 20px;
+        margin-right: 120px;
+    }
+}
+
