@@ -6,7 +6,7 @@
 .navbar h3 {
     color:#ffffff;
     padding: 30px 10px;
-    margin-left: 373px;
+    margin-left: 577px;
     background-color:teal ;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
@@ -57,7 +57,7 @@ footer {
 }
 main {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9Xgz-pqn6-t2Ruv7HtzIIrK-Hl_4NGHIG5CRezmHbdoWQcLc9");
-    height: 700px;
+    height: 720px;
     overflow: auto;
 }
 .container {
@@ -75,7 +75,7 @@ main {
         margin-bottom:30px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 991.98) {
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
     .container-p {
         height:650px;
         width: 550px;
