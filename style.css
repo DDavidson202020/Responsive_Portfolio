@@ -57,15 +57,13 @@ footer {
 }
 main {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9Xgz-pqn6-t2Ruv7HtzIIrK-Hl_4NGHIG5CRezmHbdoWQcLc9");
-    height: 720px;
+    height: 700px;
     overflow: auto;
 }
 .container {
-
     background-color: white;
     margin-top:40px;
     border: 1px solid #a09797;
-    
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     .container-p {
