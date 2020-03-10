@@ -12,8 +12,9 @@
     background-color:teal ;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
-    font-size:20px;
+    font-size:25px;
 }
+
 .navbar {
     min-height: 90px;
     border: 2px solid #cccccc;
